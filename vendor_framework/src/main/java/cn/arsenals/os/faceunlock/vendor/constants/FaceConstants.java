@@ -1,4 +1,4 @@
-package org.pixelexperience.faceunlock.vendor.constants;
+package cn.arsenals.os.faceunlock.vendor.constants;
 
 public class FaceConstants {
     public static final int MG_UNLOCK_ATTR_EYE_CLOSE = 22;

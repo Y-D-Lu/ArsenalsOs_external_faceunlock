@@ -1,22 +1,22 @@
 package com.motorola.faceunlock.vendor;
 
-import static org.pixelexperience.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_ATTR_EYE_CLOSE;
-import static org.pixelexperience.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_COMPARE_FAILURE;
-import static org.pixelexperience.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_DARKLIGHT;
-import static org.pixelexperience.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_FACE_BLUR;
-import static org.pixelexperience.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_FACE_MULTI;
-import static org.pixelexperience.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_FACE_NOT_COMPLETE;
-import static org.pixelexperience.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_FACE_NOT_FOUND;
-import static org.pixelexperience.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_FACE_SCALE_TOO_LARGE;
-import static org.pixelexperience.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_KEEP;
-import static org.pixelexperience.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_LIVENESS_WARNING;
+import static cn.arsenals.os.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_ATTR_EYE_CLOSE;
+import static cn.arsenals.os.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_COMPARE_FAILURE;
+import static cn.arsenals.os.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_DARKLIGHT;
+import static cn.arsenals.os.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_FACE_BLUR;
+import static cn.arsenals.os.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_FACE_MULTI;
+import static cn.arsenals.os.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_FACE_NOT_COMPLETE;
+import static cn.arsenals.os.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_FACE_NOT_FOUND;
+import static cn.arsenals.os.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_FACE_SCALE_TOO_LARGE;
+import static cn.arsenals.os.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_KEEP;
+import static cn.arsenals.os.faceunlock.vendor.constants.FaceConstants.MG_UNLOCK_LIVENESS_WARNING;
 
 import android.content.Context;
 import android.util.Log;
 
-import org.pixelexperience.faceunlock.vendor.constants.AppConstants;
-import org.pixelexperience.faceunlock.vendor.utils.SharedUtil;
-import org.pixelexperience.faceunlock.vendor.VendorFaceManager;
+import cn.arsenals.os.faceunlock.vendor.constants.AppConstants;
+import cn.arsenals.os.faceunlock.vendor.utils.SharedUtil;
+import cn.arsenals.os.faceunlock.vendor.VendorFaceManager;
 
 import java.io.File;
 import java.util.UUID;

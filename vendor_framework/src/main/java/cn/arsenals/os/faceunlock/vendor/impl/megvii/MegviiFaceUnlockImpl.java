@@ -1,4 +1,4 @@
-package org.pixelexperience.faceunlock.vendor.impl.megvii;
+package cn.arsenals.os.faceunlock.vendor.impl.megvii;
 
 import com.megvii.facepp.sdk.Lite;
 

@@ -1,4 +1,4 @@
-package org.pixelexperience.faceunlock.vendor;
+package cn.arsenals.os.faceunlock.vendor;
 
 public abstract class VendorFaceManager {
     public abstract int compare(byte[] bArr, int i, int i2, int i3, boolean z, boolean z2, int[] iArr);
